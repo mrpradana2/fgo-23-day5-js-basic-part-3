@@ -8,7 +8,6 @@ const account = {
     return {
       ...account,
     };
-    // return this.password;
   },
 };
 
