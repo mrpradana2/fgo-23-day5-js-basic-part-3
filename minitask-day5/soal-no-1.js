@@ -5,9 +5,14 @@ const account = {
   password: "passwordrahasia567!",
   setPassword: function (newPassword) {
     this.password = newPassword;
-    return this.password;
+    return {
+      ...account,
+    };
+    // return this.password;
   },
 };
+
+account.setPassword("Newpassword8464@");
 
 const { username, password } = account;
 
